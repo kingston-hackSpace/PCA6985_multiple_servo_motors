@@ -6,7 +6,7 @@ To address each servo driver separately, solder must be applied to the contact p
 
 The drivers communicate with the raspberry pi via the SCL and SDA (Serial Clock, Serial Data) 12C GPIO Pins. Each additional driver is chained to the last through the pins on either side of the board.
 
-Working out the correct power for the drivers.
+<h2>Working out the correct power for the drivers.</h2>
 
 Each driver needs access to a power supply outside the raspberry pi. Use a voltmeter and connect the electrodes between the ground and voltage pins of the driver. First determine the voltage running through driver when the device is at rest. Then find the voltage when all the motors are in motion. If you can test when all the motors are under stress. 
 
